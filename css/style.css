@@ -18,289 +18,109 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--fonte-principal);
+    list-style: none;
     text-decoration: none;
 }
 
-
-
-
-body{
-    background-color: #eca070;
-
-}
-
-/* Header */
-
-header{
-    background-color: var(--cor-header);
-    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
-    margin-bottom: 10px;
-}
-
-.doacoes{
-    position: absolute;
+.container {
     display: flex;
-    top: 35px;
-    left: 90%;
-    cursor: pointer;
-}
-
-.doacoes{
-    background-color: var(--cor-principal);
-    border: none;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 8px;
-    padding: 8px;
-}
-
-.doacoes:hover{
-    background-color: #63e76a;
-}
-
-nav{
-    background-color: #cabfbf;
-    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
-    margin-bottom: 10px;
-}
-
-nav ul {
-    display: flex;
-    height: 70px;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-    font-size: 17px;
-    font-weight: bold;
-}
-
-nav a{
-    color: #000;
-}
-
-nav a:hover{
-    color: var(--cor-header);
-    text-decoration: underline;
-}
-
-/* Section */
-
-.container{
-    display: block;
-    width: 50%;
-    height: 300px;
-    background-color: #cabfbf;
-    border-radius: 10px;
-    margin-left: 30px;
-    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
-    margin-bottom: 20px;
-}
-
-.container img{
-    margin-left: 20px;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-
-.oracao{
-    display: block;
-    font-size: 25px;
-    padding-left: 20px;
-    color: #000;
-}
-
-.oracao:hover{
-    color: #252323;
+    background-color: #ceb5a6;
+    width: 100%;
+    height: 100vh;
 }
 
 
-.word{
-    display: block;
-    font-size: 14px;
-    margin-left: 20px;
-}
-
-.text {
+.container-search {
     position: relative;
+    left: 300px;
     display: block;
-    top: -60%;
-    left: 50%;
-    width: 300px;
-}
-
-/* Aside */
-
-.versiculo{
-    position: absolute;
+    width: 800px;
     background-color: #D67030;
-    border-radius: 10px;
-    padding-top: 100%;
-    top: 30%;
-    left: 55%;
-    width: 550px;
-    margin: 30px;
     padding: 20px;
-    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.705);
 }
 
-.versiculo h2{
-    text-align: center;
-    font-size: 30px;
-}
-
-.versiculo h2:hover{
-    color: #252323;
-}
-
-/* Footer */
-
-.info{
+.search {
+    position: relative;
+    bottom: 10px;
     display: flex;
-    background-color: #007373;
-    height: 200px;
-    margin-bottom: 10px;
-    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+    justify-content: end;
     
 }
 
-.formulario{
-    display: block;
-    background-color: #cabfbf;
-    width: 400px;
-    height: 160px;
-    margin: 25px;
-    margin-top: 25px;
-    border-radius: 10px;
-}
-
-.formulario input{
-    display: block;
-    margin: 7px auto;
-    padding: 2px;
-    font-size: 12px;
-    width: 90%;
-    border-radius: 10px;
+.search input {
+    text-align: center;
+    border-radius: 30px;
     border: none;
-    outline-color: #007373;
+    font-size: 13px;
+
 }
 
-.formulario .btn-form{
+.search i {
     position: relative;
-    margin-left: 100px;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: var(--fonte-principal);
-    background-color: #007373;
-    border-radius: 10px;
-    border: none;
-    width: 50%;
+    left: 10px;
     cursor: pointer;
-    
 }
 
-.formulario .btn-form:hover{
-    background-color: #D67030;
-}
-
-.formulario h3{
-    font-family: var(--fonte-principal);
-    text-align: center;
-}
-
-.newsletter{
-    display: block;
-    background-color: #cabfbf;
-    width: 400px;
-    height: 160px;
-    margin: 25px;
-    margin-top: 25px;
-    border-radius: 10px;
-
-}
-
-.newsletter{
-    font-family: var(--fonte-principal);
-    text-align: center;
-    height: 110px;
-    margin-top: 50px;
-}
-
-.newsletter input{
-    display: block;
-    margin: 7px auto;
-    margin-top: 10px;
-    padding: 5px;
-    font-size: 12px;
-    width: 90%;
-    border-radius: 10px;
-    border: none;
-    outline-color: #007373;
-}
-
-.newsletter .btn-form{
+.img-container {
     position: relative;
-    margin-left: 10px;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: var(--fonte-principal);
+    right: 20px;
+    bottom: 5px;
     background-color: #007373;
-    border-radius: 10px;
-    border: none;
-    width: 50%;
-    cursor: pointer;  
+    width: 800px;
+    height: 150px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.705);
 }
 
-.newsletter .btn-form:hover{
-    background-color: #D67030;
+header .img {
+    display: flex;
+    margin: 0 auto;
+    height: 150px;
 }
 
-.sociais{
-    display: block;
-    background-color: #cabfbf;
-    width: 400px;
-    height: 100px;
-    margin-top: 54px;
-    border-radius: 10px;
-    text-align: center;
+label {
+    position: absolute;
+    bottom: 9px;
+    left: 140px;
+    font-weight: 600;
+    color: #ffffff;
 }
 
-.sociais h3{
-    font-family: var(--fonte-principal);
-    text-align: center;
-}
-
-
-
-.sociais i{
-    font-size: 30px;
-    background-color: #007373;;
-    color: #fff;
+.nav-links {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #007373;
+    right: 20px;
+    width: 800px;
+    height: 80px;
     padding: 10px;
-    margin: 3px;
-    border-radius: 10px;
-    
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.705);
 }
 
-.sociais i:hover{
+.links {
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.links:hover {
     color: #D67030;
 }
 
-h3:hover{
-    color: #252323;;
+span {
+    position: relative;
+    top: 12px;
+    font-size: 30px;
+    color: #ffffff;
 }
 
-/* Rodapé */
-
-.site{
-    background-color: #cabfbf;
+span:hover {
+    color: #D67030;
 }
 
-.site p{
-    text-align: center;
-    font-family: var(--fonte-principal);
-    font-size: 12px;
-}
 
 
 
