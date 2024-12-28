@@ -17,28 +17,72 @@
 </head>
 
 <body>
-    <main class="container">
-        <header class="container-search">
-            <div class="search">
-                <input type="text" placeholder="PESQUISAR"> <i class="fa-solid fa-magnifying-glass"></i>
+    <header class="container">
+        <div class="img-logo">
+            <img src="img/2-sem-fundo.png" alt="">
+        </div>
+
+        <nav class="nav-bar">
+            <ul>
+                <a>SUA NOVA CASA</a><span style="margin: 0 10px 10px;">|</span>
+                <a>QUEM SOMOS</a><span style="margin: 0 10px 10px;">|</span>
+                <a>CULTOS</a><span style="margin: 0 10px 10px;">|</span>
+                <a>DÍZIMOS E OFERTAS</a><span style="margin: 0 10px 10px;">|</span>
+                <a>CONTATO</a>
+            </ul>
+        </nav>
+
+        <div class="socials">
+            <div class="socials-icons">
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider">
+
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <img src="img/louvando.jpg" alt="Louvando">
             </div>
 
-            <div class="img-container">
-                <img class="img" src="img/ELE VIVE.png" alt="Logo">
-                <label>Um lugar seguro para explorar assuntos sobre a vida e Deus.</label>
+            <div class="slide">
+                <img src="img/biblia.jpg" alt="Biblia">
             </div>
 
-            <nav>
-                <ul class="nav-links">
-                    <li class="links">Existência de Deus</li> <span>|</span>
-                    <li class="links">Coisas da vida</li> <span>|</span>
-                    <li class="links">Relacionamentos</li> <span>|</span>
-                    <li class="links">Conhecendo Deus</li> <span>|</span>
-                    <li class="links">Dúvidas</li>
-                </ul>
-            </nav>
-        </header>
-    </main>
+            <div class="slide">
+                <img src="img/culto.webp" alt="Culto">
+            </div>
+
+            <div class="slide">
+                <img src="img/pastor.jpg" alt="Pastor">
+            </div>
+
+            <div class="navigation">
+                <div class="btn1"></div>
+                <div class="btn2"></div>
+                <div class="btn3"></div>
+                <div class="btn4"></div>
+            </div>
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
 
 </body>
 
