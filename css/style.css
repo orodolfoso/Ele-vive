@@ -22,9 +22,6 @@
     text-decoration: none;
 }
 
-body {
-    background-color: red;
-}
 
 /* Header Menu */
 
@@ -36,15 +33,45 @@ body {
     padding: 20px;
 }
 
-.nav-bar, ul, a {
-    color: #fff;
-    font-weight: 600;
+.img-logo {
     cursor: pointer;
 }
 
-.nav-bar, ul, a:hover {
+.nav-bar, ul li {
+    display: inline-block;
+    margin: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nav-bar, ul, li:hover{
     color: #D67030;
 }
+
+span {
+    color: #fff;
+}
+
+span:hover {
+    color: #D67030;
+}
+
+.socials i{
+    display: inline-block;
+    background-color: #fff;
+    margin: 15px;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.socials i:hover{
+    background-color: #D67030;
+    color: #fff;
+}
+
 
 
 
