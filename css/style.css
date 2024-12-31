@@ -77,6 +77,93 @@ span:hover {
 
 /* Section */
 
+.section-prayer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000f1;
+}
+
+.prayer {
+    background-color: #fff;
+    margin: 10px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.prayer:hover {
+    background-color: #e2d3d3;
+}
+
+.prayer h3 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+
+
+.prayer p {
+    text-align: center;
+    margin-top: 15px;
+    font-family: sans-serif;
+    color: #000;
+} 
+
+
+
+.prayer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.prayer a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.prayer img {
+    border-radius: 15px;
+    box-shadow: 1px 3px 3px #000000dc;
+}
+
+.container-program {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+.program-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.program {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.program img {
+    display: flex;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+}
+
+
 
 
 
