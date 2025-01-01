@@ -135,12 +135,23 @@ span:hover {
 }
 
 .container-program {
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin: 50px;
+    margin: 40px;
     padding: 20px;
+}
+
+
+
+
+.title h2{
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 700;
+
 }
 
 .program-items {
@@ -152,8 +163,13 @@ span:hover {
 }
 
 .program {
-    background-color: #fff;
+    background-color: #000;
     padding: 30px;
+    margin: 15px;
+}
+
+.program:hover {
+    background-color: #0f0f0f;
 }
 
 .program img {
@@ -161,6 +177,70 @@ span:hover {
     position: relative;
     left: 20px;
     bottom: 10px;
+}
+
+.time {
+    display: flex;
+    gap: 10px;
+}
+
+.program h3 {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.program p {
+    color: #fff;
+    padding: 15px;
+}
+
+.program i {
+    color: #D67030;
+    font-size: 30px;
+}
+
+.program-1 {
+    background-color: #000;
+    margin: 20px;
+    padding: 40px;
+    height: 340px;
+}
+
+.program-1:hover {
+    background-color: #0f0f0f;
+}
+
+.program-1 h3 {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 19px;
+    color: #fff;
+    padding: 15px;
+    text-align: start;
+}
+
+
+.program button {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.program-1 button {
+    position: relative;
+    top: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 
