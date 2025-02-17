@@ -16,160 +16,93 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
+    <!-- Javascripts -->
+    <script src="js/scripts.js" defer></script>
 </head>
 
 
-<body style="background-color: #000000f1;">
+<body>
 
-    <header class="container">
-        <div class="img-logo">
-            <img src="img/2-sem-fundo.png" alt="">
-        </div>
+    <header class="header-container">
+        <img src="img/2-sem-fundo.png" alt="Logo - Ele Vive">
 
         <nav class="nav-bar">
             <ul>
-                <li>SUA NOVA CASA</li><span style="margin: 0 10px 10px;">|</span>
-                <li>QUEM SOMOS</li><span style="margin: 0 10px 10px;">|</span>
-                <li>CULTOS</li><span style="margin: 0 10px 10px;">|</span>
-                <li>DÍZIMOS E OFERTAS</li><span style="margin: 0 10px 10px;">|</span>
-                <li>CONTATO</li>
+                <li><a href="#"></a>Quem Somos</li>
+                <li><a href="#"></a>Cultos</li>
+                <li><a href="#"></a>Dízimos e Ofertas</li>
+                <li><a href="#"></a>Contato</li>
             </ul>
         </nav>
 
-        <div class="socials">
-            <div class="socials-icons">
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-square-instagram"></i>
-                <i class="fa-brands fa-facebook"></i>
-            </div>
-        </div>
+        <dvi class="socials">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </dvi>
+
     </header>
 
-    <section class="container-carousel">
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+    <section class="slider">
+        <div class="slider-content">
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slider-box first">
+                <img class="img-desktop" src="img/img-g1.png" alt="Imagem 1">
+                <img class="img-mobile" src="img/img-p1.png" alt="Imagem 1">
             </div>
-            <div class="carousel-inner">
 
-                <div class="carousel-item active">
-                    <img src="img/10.png" class="d-block w-100" alt="Louvando">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="img/20.png" class="d-block w-100" alt="Culto">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-
-                </div>
-                <div class="carousel-item">
-                    <img src="img/30.png" class="d-block w-100" alt="Pastor">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-
-                </div>
-
+            <div class="slider-box">
+                <img class="img-desktop" src="img/img-g2.png" alt="Imagem 2">
+                <img class="img-mobile" src="img/img-p2.png" alt="Imagem 2">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
+            <div class="slider-box">
+                <img class="img-desktop" src="img/img-g3.png" alt="Imagem 3">
+                <img class="img-mobile" src="img/img-p3.png" alt="Imagem 3">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
         </div>
     </section>
 
-    <section class="section-prayer">
-        <div class="prayer">
-            <h3>ORAÇÃO</h3>
-            <img src="img/h-orando-peq-.png" alt="Homem orando">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia fugiat modi sit nemo? Fugiat error at
-                minima, fugit dolores exercitationem?</p>
-            <a href="#">Mais...</a>
-        </div>
-
-        <div class="prayer">
-            <h3>ORAÇÃO</h3>
+    <section class="prayers">
+        <div class="card"> 
+            <h2>Mulheres que Oram</h2>
             <img src="img/mulher-orando-peq.png" alt="Mulher orando">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia fugiat modi sit nemo? Fugiat error at
-                minima, fugit dolores exercitationem?</p>
-            <a href="#">Mais...</a>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit iste suscipit earum maiores a hic, ducimus
+                totam magni ipsum minima. <a href="#">Continue...</a></p>
         </div>
 
-        <div class="prayer">
-            <h3>ORAÇÃO</h3>
+        <div class="card"> 
+            <h2>A importância da oração</h2>
+            <img src="img/h-orando-peq-.png" alt="Homem orando">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit iste suscipit earum maiores a hic, ducimus
+                totam magni ipsum minima. <a href="#">Continue...</a></p>
+        </div>
+
+        <div class="card"> 
+            <h2>O casal que ora</h2>
             <img src="img/casal-peq.png" alt="Casal orando">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia fugiat modi sit nemo? Fugiat error at
-                minima, fugit dolores exercitationem?</p>
-            <a href="#">Mais...</a>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit iste suscipit earum maiores a hic, ducimus
+                totam magni ipsum minima. <a href="#">Continue...</a></p>
         </div>
+
     </section>
 
-
-    <section class="container-program">
-
-
-        <div class="title">
-            <h2>CONFIRA NOSSA PROGRAMAÇÃO</h2>
-        </div>
-
-        <div class="program-items">
-            <div class="program">
-                <h3>CULTO DE CELEBRAÇÃO</h3>
-                <div class="time">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    <h3>DOMINGO 10H00 + 18H00</h3>
-                </div>
-                <P>Nossos domingos de celebração tem sido incríveis. Venha ter uma experiência única com Jesus!
-                    Temos 3
-                    cultos, escolha o melhor horário e vem.</P>
-                <button>SAIBA MAIS</button>
-            </div>
-
-            <div class="program">
-                <h3>CULTO DE FÉ</h3>
-                <div class="time">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    <h3>QUINTA-FERIA 20H00</h3>
-                </div>
-                <P>Pra que esperar o DOMINGO? participe do nosso Culto Fé as quintas-feiras. Te esperamos
-                    presencialmente e
-                    também online!</P>
-                <button>SAIBA MAIS</button>
-            </div>
-
-            <div class="program-1">
-                <img src="img/2-sem-fundo.png" alt="Homem orando" width="200px">
-                <h3>Av. Industrial, 1931, jardim,
-                    Santo André/SP</h3>
-                <button>VER NO MAPS</button>
-            </div>
-        </div>
-    </section>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
 
 </body>
 
