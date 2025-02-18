@@ -199,6 +199,25 @@
     color: var(--cor-header);
 }
 
+/* Programção */
+
+.program-content h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    
+}
+
+.program-content .program  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+}
+
 
 
 
